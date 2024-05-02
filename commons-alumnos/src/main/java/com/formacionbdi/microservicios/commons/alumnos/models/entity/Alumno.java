@@ -25,7 +25,6 @@ public class Alumno {
 	String apellido;
 	@Column(unique = true)
 	String email;
-	Boolean enable;
 	@Column(name = "create_at")
 	Date createAt;
 }

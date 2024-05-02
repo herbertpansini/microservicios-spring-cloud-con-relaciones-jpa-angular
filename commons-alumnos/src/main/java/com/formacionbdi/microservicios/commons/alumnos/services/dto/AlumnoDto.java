@@ -20,6 +20,5 @@ public class AlumnoDto implements Serializable {
 	String nombre;
 	String apellido;
 	String email;
-	Boolean enable;
 	Date createAt;
 }
